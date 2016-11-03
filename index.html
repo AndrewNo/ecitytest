@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Переводчик</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<div class="wrapper">
+  <h1>Игра в города</h1>
+<form action="http://ecity.org.ua:8080/city" method="get">
+  <input type="text" name="name" value="">
+ <button>Сделать ход</button> 
+</form>
+<div class="answer">
+	<div class="myanswer">
+		<h2>Мой ход</h2>
+		<div class="ans"></div>
+	</div>
+	<div class="pcanswer">
+		<h2>Ход компьютера</h2>
+	</div>
+	<div class="cityInfo">
+		<h2>Информация о городах</h2>
+		<div class="info"></div>
+	</div>
+</div>
+  
+</div>
+<script src="lib/jquery.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
